@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: rajatvarade/test
+  tag: latest
+
+containerPort: 3000
+
+service:
+  type: NodePort
+  port: 3000
