@@ -1,6 +1,6 @@
 const request = require('supertest');
 
-const deployedAppUrl = 'http://172.17.0.3:30000'; // Replace with the URL of your deployed application
+const deployedAppUrl = 'http://192.168.49.2:30000'; // Replace with the URL of your deployed application
 
 describe('Deployed Application Smoke Tests', () => {
   test('GET /hello should return "Hello, World!"', async () => {
