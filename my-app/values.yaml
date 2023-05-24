@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: rajatvarade/test
-  tag: latest
+  repository: simranjeetchhabra/springboot-image
+  tag: 2.0.0
 
 containerPort: 3000
 
